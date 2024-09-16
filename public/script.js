@@ -2,7 +2,7 @@ function login() {
     const username = document.getElementById('username').value;
     const password = document.getElementById('password').value;
 
-    if (username === 'ryangt' && password === 'ryan123') {
+    if (username === 'ryangauterio' && password === 'SuaSenha') {
         document.getElementById('login-panel').style.display = 'none';
         document.getElementById('storage-panel').style.display = 'block';
         listFiles();

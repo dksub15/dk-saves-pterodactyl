@@ -1,1 +1,1 @@
-Usando NodeJS no Pterodactyl para rodar.
+Usando NodeJS no Pterodactyl panel para rodar.

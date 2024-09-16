@@ -1,0 +1,66 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#login-panel, #storage-panel {
+    max-width: 300px;
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    background-color: #1e1e1e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #ea0000;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b30000;
+}
+
+.file-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.file-icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+#progressContainer {
+    width: 100%;
+    background-color: #333;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+#progressBar {
+    width: 0;
+    height: 20px;
+    background-color: #ea0000;
+    border-radius: 5px;
+}
